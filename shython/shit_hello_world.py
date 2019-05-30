@@ -9,7 +9,7 @@ def shit_hello_world():
         iters += 1
         a = choice(string.ascii_letters + "!" + " ")
         if a == target[i]:
-            print(a, end ="")
+            print(a, end="")
             i+=1
             if i >= len(target):
                 break
